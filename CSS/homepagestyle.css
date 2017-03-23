@@ -1,0 +1,194 @@
+  body {
+      background: #333;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    }
+    .thumb {
+      height: 250px;
+      width: 250px;
+    }
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 30px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+.place {
+  text-align: center;
+  font-size: 200%;
+  font-family: "Diplomata SC", Arial, impact;    padding-bottom: 150px;
+  padding-top: 150px;
+  background-image: url("http://www.drodd.com/images15/sunset21.jpg");
+  background-size: 1600px 600px;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.aside {
+  font-size: 150%;
+  margin: 5%;
+}
+
+div#nav{
+  text-align: center;
+}
+div#nav ul{
+  display: inline-block;
+}
+#icon {
+  max-width: 50px;
+  display:inline-block;
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+}
+
+.DGP {
+  display: inline-block;
+  max-height: 200px;
+}
+.collageart{
+  display: inline-block;
+  max-height: 200px;
+}
+footer {  
+  margin-top:5px; 
+  height:30px; 
+}
+
+footer ul { 
+  padding:0; 
+  margin:0;
+}
+
+footer li {
+  float: left; 
+  list-style:none; 
+  margin-left:5px;
+}
+
+.about {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+.nav_second {
+  color:white;
+  display: block;
+  margin-left: 10%;
+  font-size: 150%;
+}
+
+.navpic {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+@media screen and (min-width:700px) {
+ 
+  .place {
+    font-size: 400%;}
+
+.DGP {
+  display: inline-block;
+  max-height: 400px;
+}
+.DGP.expanded {
+    max-width: none;
+}
+.collageart{
+  display: inline-block;
+  max-height: 400px;
+}
+
+.about {
+  font-size: 100%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+.collageart {
+    height: auto;
+    max-width: 100%;
+}
+.collageart.expanded {
+    max-width: none;
+}
+
+.nav_second {
+  display: block;
+  font-size: 200%;
+  margin: 10%;
+}
+
+.bodybox {
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  margin: 10px;
+  text-align: center;
+}
+
+.forcolumns div{
+  width: 28%;
+  margin: 1%;
+  float:left;
+}
+
+footer {
+  border: 2px;
+  clear:both;
+  border: white;
+      }
+
+.aside {font-size: 100%;
+  margin: 5%;}
+}
+
+
+@media screen and (min-width:1200px) {
+.place {font-size: 500%;}
+.DGP {display: inline-block;
+      max-height: 400px;}
+.about {font-size: 100%;}
+h2 {font-size: 200%;}
+.navpic {max-width: 350px;
+  max-height: 350px;}
+.aside {font-size: 100%;
+  margin: 5%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  padding:5%;}
+}
+.collageart {max-width: 500px;
+  max-height: 500px;
+  margin: 10px;}
